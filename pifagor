@@ -1,0 +1,10 @@
+import Foundation 
+
+let input = readLine()!.split(separator: " ")      //Считываем проверочные параметры
+let first = input.first!                             //1 параметр в поле ввода - String
+let second = input.last!                             //2 параметр в поле ввода - String
+var firstInt = Double(first)!                   //1 параметр в число Int(если надо)
+var secondInt = Double(second)!                 //2 параметр в число Int(если надо)
+var gip = sqrt(pow(secondInt,2)+pow(firstInt,2))
+
+print(gip)
